@@ -9,23 +9,23 @@ conversao1 <- 0
 conversao2 <- 0
 
 repita
-   escreval("1)Para converter quilômetro em metros")
-   escreval("2)Para converter litros em metros cúbicos")
+   escreval("1)Para converter quilÃ´metro em metros")
+   escreval("2)Para converter metros cÃºbicos em litros")
    escreval("3)Para sair do programa")
    leia(opcao)
    se opcao = "1" entao
-      escreval("Digite quantos quilômetros serão convertidos em metros:")
+      escreval("Digite quantos quilÃ´metros serÃ£o convertidos em metros:")
       leia(m)
       conversao1 <- m * 1000
-      escreval("Resultado da conversão: ", conversao1)
+      escreval("Resultado da conversÃ£o: ", conversao1)
       escreval(" ")
 
    senao
       se opcao = "2" entao
-         escreval("Digite quantos litros serão convertidos em metros cúbicos")
+         escreval("Digite quantos metros cÃºbicos serÃ£o convertidos em litros")
          leia(l)
          conversao2 <- l/1000
-         escreval("Resultado da conversão: ", conversao2)
+         escreval("Resultado da conversÃ£o: ", conversao2)
          escreval(" ")
       fimse
    fimse
