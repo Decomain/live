@@ -13,12 +13,14 @@ repita
    escreval("2)Para converter metros cúbicos em litros")
    escreval("3)Para sair do programa")
    leia(opcao)
+   limpatela
    se opcao = "1" entao
       escreval("Digite quantos quilômetros serão convertidos em metros:")
       leia(m)
       conversao1 <- m * 1000
       escreval("Resultado da conversão: ", conversao1)
       escreval(" ")
+      limpatela
 
    senao
       se opcao = "2" entao
@@ -27,6 +29,7 @@ repita
          conversao2 <- l/1000
          escreval("Resultado da conversão: ", conversao2)
          escreval(" ")
+         limpatela
       fimse
    fimse
 ate opcao = "3"
